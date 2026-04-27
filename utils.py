@@ -4,7 +4,7 @@ import os
 from google import genai
 
 # 1. SETUP 
-API_KEY = "AIzaSyDGONCKb4Tq2XXx8ltA-XDB3JJME-4tk00"
+API_KEY = "Your Api key here"
 
 def get_client():
     if not API_KEY or "PASTE_YOUR" in API_KEY:
